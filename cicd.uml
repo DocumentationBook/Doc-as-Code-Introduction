@@ -1,0 +1,30 @@
+@startuml
+actor developer
+actor writer
+control "VCS (Git)" as vcs
+database "VCS repositories\n    [static docs]" as repo
+control "VCS (Git) " as vcs2
+control "auto doc" as autodoc
+folder predoc [
+dynamic
+  docs
+]
+control "  doc toolset" as doctool
+folder html [
+HTML, CSS, JS
+]
+control "web server" as web
+actor user
+
+developer -> vcs
+vcs <-- writer
+vcs -> repo
+repo -> vcs2
+vcs2 -> doctool
+vcs2 -> autodoc
+autodoc -> predoc
+doctool <-- predoc
+doctool -> html
+html -> web
+web -> user
+@enduml
