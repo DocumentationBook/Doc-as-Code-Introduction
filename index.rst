@@ -3,13 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Doc as Code's documentation!
-=======================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
+Doc as Code Introduction
+=========================
 
 Most probably you have already heard a lot about the doc-as-code approach,
 especially among program developers and technical writers. This is one more attempt to outline what it
@@ -22,7 +17,7 @@ What doc-as-code means
 First of all, the documentation is treated similar to programs in the following aspects:
 
 *  Documentation source files are stored in a version control system.
-*  The code is reviewed by various reviewers (managers, developers, analysts, technical writers)
+*  The code is reviewed by various reviewers (managers, developers, analysts, technical writers, and others).
 *  Documents are tested for accuracy and functionality. Especially it concerns code examples, links
    sequence of operations, and other practical parts.
 *  Documentation artifacts are produced and published automatically.
