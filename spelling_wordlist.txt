@@ -1,6 +1,12 @@
+backquote
+conda
+Homebrew
 Javadoc
+reST
 stdin
 stdout
+subfolder
 toolset
 toolsets
 TTY
+Usecase

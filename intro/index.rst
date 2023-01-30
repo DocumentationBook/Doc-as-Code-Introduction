@@ -51,10 +51,4 @@ Documentation toolsets
 *  Generators of documents from configuration files and other metadata: Swagger toolset.
 
 
-Continues integration and deployment
-====================================
-
-Typical CI and CD (continues integration and continues deployment) look as follows:
-
-.. uml:: cicd.uml
 
