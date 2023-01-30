@@ -1,4 +1,4 @@
-# Doc as Code Introduction
+# Doc as Code
 
 Chances are you've heard a lot about document-as-code by now,
 especially among software developers and technical writers. 
